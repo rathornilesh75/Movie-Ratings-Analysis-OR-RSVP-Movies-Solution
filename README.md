@@ -1,19 +1,33 @@
 # 🎬 Movie Ratings Analysis – RSVP Movies (MySQL Project)
 
-This project is focused on analyzing **IMDB-style movie ratings data** using **MySQL**. It is based on RSVP Movies data and aims to extract valuable insights about movie popularity, user behavior, and trends.
+This project focuses on analyzing **IMDB-style movie ratings data** using **MySQL**. It is based on **RSVP Movies**, an Indian film production company, and aims to extract valuable insights about movie performance, user behavior, and trends using structured SQL queries.
 
 ---
 
-## 📂 Dataset Sources
+## 🧠 Objective
+
+**RSVP Movies** plans to release a new film for the global audience. Before doing so, they want to make **data-driven decisions** using their historical movie data from the last 3 years.
+
+As a **data analyst and SQL expert**, your task is to:
+- Analyze the dataset provided
+- Answer business-related questions using SQL
+- Generate insights and **recommendations** that will guide RSVP Movies in planning their upcoming international release
+
+The analysis is divided into **four segments**, each focusing on different aspects of the business using various table combinations. All questions are embedded as **SQL comments** in the provided script — you must write your queries just below each question.
+
+---
+
+## 📁 Dataset Sources
 
 There are two versions of the dataset:
 
-1. **Small Dataset (included in SQL file)**  
-   - Easy to start with — just run the SQL script to create and populate the tables.
+1. **Small Dataset (SQL File)**  
+   - Included in the repository.
+   - Run this file to auto-generate the schema, populate data, and view analysis questions.
 
-2. **Large Dataset (Excel file)** *(optional)*  
-   - For deeper analysis or further exploration.
-   - You can import this into your SQL database using tools like MySQL Workbench or pandas.
+2. **Large Dataset (Excel File)** *(Optional)*  
+   - Provided for more advanced analysis.
+   - Can be imported into MySQL manually or via tools like **MySQL Workbench**, **DBeaver**, or **pandas**.
 
 ---
 
@@ -21,16 +35,134 @@ There are two versions of the dataset:
 
 - **MySQL**
 
-⚠️ *Note:* If you're using a different SQL engine (e.g., PostgreSQL, MS SQL Server), you may encounter syntax differences, especially with functions, joins, or string handling.
+⚠️ *Note:* If you're using a different SQL engine (e.g., PostgreSQL, MS SQL Server), you may experience compatibility issues due to syntax differences in string functions, date functions, and joins.
 
 ---
 
-## ❓ What You'll Find
+## 🔍 What You'll Find in This Project
 
-- All **analysis questions** are written as comments inside the SQL file.
-- Simply open the `.sql` file, and start writing queries beneath each question.
+- 📜 `rsvp_movies.sql`: SQL file with schema, data, and embedded analysis questions
+- 🧠 `rsvp_movies_solution.sql`: Contains all the solution queries
+- 📊 `rsvp_movies_large.xlsx`: Optional large dataset for deeper analysis
+- 📄 `Summary.pdf`: (Optional) Written summary of the insights and recommendations
 
-📁 File structure:
-  - SQL file
-  - Excel file
-  - SQL dile (Solution)
+---
+
+## 🧪 Key Skills Demonstrated
+
+- Writing complex SQL queries
+- Using `JOIN`, `GROUP BY`, `HAVING`, and subqueries
+- Filtering and ranking data
+- Translating business objectives into SQL logic
+- Structuring a project for real-world use
+
+---
+
+## 🚀 Getting Started
+
+1. Install **MySQL** and open your preferred SQL editor (MySQL Workbench, DBeaver, etc.)
+2. Run the `rsvp_movies.sql` script to set up the database
+3. Answer the questions by writing your queries in the script
+4. Refer to the `rsvp_movies_solution.sql` if you're stuck or want to compare approaches
+
+---
+
+## ✅ Learning Outcome
+
+By the end of this project, you'll be able to:
+- Analyze business scenarios using SQL
+- Structure your analytics into clear, logical segments
+- Make data-backed recommendations based on query results
+
+---
+
+## 📬 Contact
+
+If you'd like to collaborate or need help running the project, feel free to reach out via GitHub or email.
+
+---
+
+# 🎬 Movie Ratings Analysis – RSVP Movies (MySQL Project)
+
+This project focuses on analyzing **IMDB-style movie ratings data** using **MySQL**. It is based on **RSVP Movies**, an Indian film production company, and aims to extract valuable insights about movie performance, user behavior, and trends using structured SQL queries.
+
+---
+
+## 🧠 Objective
+
+**RSVP Movies** plans to release a new film for the global audience. Before doing so, they want to make **data-driven decisions** using their historical movie data from the last 3 years.
+
+As a **data analyst and SQL expert**, your task is to:
+- Analyze the dataset provided
+- Answer business-related questions using SQL
+- Generate insights and **recommendations** that will guide RSVP Movies in planning their upcoming international release
+
+The analysis is divided into **four segments**, each focusing on different aspects of the business using various table combinations. All questions are embedded as **SQL comments** in the provided script — you must write your queries just below each question.
+
+---
+
+## 📁 Dataset Sources
+
+There are two versions of the dataset:
+
+1. **Small Dataset (SQL File)**  
+   - Included in the repository.
+   - Run this file to auto-generate the schema, populate data, and view analysis questions.
+
+2. **Large Dataset (Excel File)** *(Optional)*  
+   - Provided for more advanced analysis.
+   - Can be imported into MySQL manually or via tools like **MySQL Workbench**, **DBeaver**, or **pandas**.
+
+---
+
+## 💻 SQL Server Used
+
+- **MySQL**
+
+⚠️ *Note:* If you're using a different SQL engine (e.g., PostgreSQL, MS SQL Server), you may experience compatibility issues due to syntax differences in string functions, date functions, and joins.
+
+---
+
+## 🔍 What You'll Find in This Project
+
+- 📜 `rsvp_movies.sql`: SQL file with schema, data, and embedded analysis questions
+- 🧠 `rsvp_movies_solution.sql`: Contains all the solution queries
+- 📊 `rsvp_movies_large.xlsx`: Optional large dataset for deeper analysis
+- 📄 `Summary.pdf`: (Optional) Written summary of the insights and recommendations
+
+---
+
+## 🧪 Key Skills Demonstrated
+
+- Writing complex SQL queries
+- Using `JOIN`, `GROUP BY`, `HAVING`, and subqueries
+- Filtering and ranking data
+- Translating business objectives into SQL logic
+- Structuring a project for real-world use
+
+---
+
+## 🚀 Getting Started
+
+1. Install **MySQL** and open your preferred SQL editor (MySQL Workbench, DBeaver, etc.)
+2. Run the `rsvp_movies.sql` script to set up the database
+3. Answer the questions by writing your queries in the script
+4. Refer to the `rsvp_movies_solution.sql` if you're stuck or want to compare approaches
+
+---
+
+## ✅ Learning Outcome
+
+By the end of this project, you'll be able to:
+- Analyze business scenarios using SQL
+- Structure your analytics into clear, logical segments
+- Make data-backed recommendations based on query results
+
+---
+
+## 📬 Contact
+
+If you'd like to collaborate or need help running the project, feel free to reach out via GitHub or email.
+
+---
+
